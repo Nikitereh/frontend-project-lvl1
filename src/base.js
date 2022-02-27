@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 
 const rounds = 3;
-// you can cgange count of rounds 
+// you can cgange count of rounds
 
 const func = (rules, check) => {
   console.log('Welcome to the Brain Games!');
