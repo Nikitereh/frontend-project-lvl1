@@ -9,3 +9,6 @@
 
 **Brain-even**
 [![asciicast](https://asciinema.org/a/cDuRIAO1IVpFH85IUPr8SUOBw.svg)](https://asciinema.org/a/cDuRIAO1IVpFH85IUPr8SUOBw)
+
+**Brain-calc**
+[![asciicast](https://asciinema.org/a/0lA6r0Q7bs5nBG8Tp0EtYTiKJ.svg)](https://asciinema.org/a/0lA6r0Q7bs5nBG8Tp0EtYTiKJ)
