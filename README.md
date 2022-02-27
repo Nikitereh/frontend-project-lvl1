@@ -6,4 +6,6 @@
 [![Node CI](https://github.com/Nikitereh/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/Nikitereh/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
 ### Games
+
+**Brain-even**
 [![asciicast](https://asciinema.org/a/cDuRIAO1IVpFH85IUPr8SUOBw.svg)](https://asciinema.org/a/cDuRIAO1IVpFH85IUPr8SUOBw)
