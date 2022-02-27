@@ -1,4 +1,4 @@
-import func from '../base.js';
+import func from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
