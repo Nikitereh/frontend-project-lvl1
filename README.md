@@ -19,7 +19,7 @@ Repository with 5 mini-games. Rules are simple: 3 correct answers - you win!
 - Enter `apt install npm`. Install Npm package
 - Clone the repository
 - Enter `make install`. Add dependencies
-Great! Now yon can play. All you need just enter name of the game, for example `brain-prime`. Good luck!
+- Great! Now yon can play. All you need just enter name of the game, for example `brain-prime`. Good luck!
 
 ### Games
 
