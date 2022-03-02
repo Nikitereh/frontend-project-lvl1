@@ -5,7 +5,31 @@
 
 [![Node CI](https://github.com/Nikitereh/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/Nikitereh/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
+### About
+
+Repository with 5 mini-games. Rules are simple: 3 correct answers - you win!
+
+### Before you start
+
+***Make sure that you did next steps***
+
+- Enter `apt update`. Check updates
+- Enter `apt install nodejs`. Install Node.js
+- Enter `apt upgrade nodejs`. Update Node to the last version (also you can check Node version by using `node -version`)
+- Enter `apt install npm`. Install Npm package
+- Clone the repository
+- Enter `make install`. Add dependencies
+Great! Now yon can play. All you need just enter name of the game, for example `brain-prime`. Good luck!
+
 ### Games
+
+- Brain-even
+- Brain-calc
+- Brain-gcd
+- Brain-progression
+- Brain-prime
+
+### Games review
 
 **Brain-even**
 [![asciicast](https://asciinema.org/a/cDuRIAO1IVpFH85IUPr8SUOBw.svg)](https://asciinema.org/a/cDuRIAO1IVpFH85IUPr8SUOBw)
