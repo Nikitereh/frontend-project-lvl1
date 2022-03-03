@@ -1,16 +1,16 @@
 import readlineSync from 'readline-sync';
 
-const rounds = 3;
-// you can cgange count of rounds
+const roundsCount = 3;
+// you can change count of rounds
 
-const func = (rules, check) => {
+const gameLogic = (gameRule, generateData) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
-  console.log(rules);
+  console.log(gameRule);
 
-  for (let i = 1; i <= rounds; i += 1) {
-    const [getQuestion, correctAnswer] = check();
+  for (let i = 1; i <= roundsCount; i += 1) {
+    const [question, correctAnswer] = generateData();
     console.log(`Question: ${getQuestion}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
@@ -24,4 +24,4 @@ const func = (rules, check) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export default func;
+export default gameLogic;
