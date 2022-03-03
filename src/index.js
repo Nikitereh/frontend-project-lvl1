@@ -11,7 +11,7 @@ const gameLogic = (gameRule, generateData) => {
 
   for (let i = 1; i <= roundsCount; i += 1) {
     const [question, correctAnswer] = generateData();
-    console.log(`Question: ${getQuestion}`);
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer !== correctAnswer) {
