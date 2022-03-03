@@ -1,7 +1,7 @@
-import func from '../index.js';
+import gameLogic from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
-const rules = 'What number is missing in the progression?';
+const gameRule = 'What number is missing in the progression?';
 
 const createProgression = (progressionStart, progressionStep, progressionLength) => {
   const arr = [];
@@ -12,7 +12,7 @@ const createProgression = (progressionStart, progressionStep, progressionLength)
   return arr;
 };
 
-const check = () => {
+const generateData = () => {
   const firstNumber = getRandomNumber(1, 100);
   const step = getRandomNumber(2, 10);
   const randomLength = getRandomNumber(5, 10);
@@ -27,6 +27,6 @@ const check = () => {
   return [question, correctAnswer];
 };
 
-const brainProgression = () => func(rules, check);
+const brainProgression = () => gameLogic(gameRule, generateData);
 
 export default brainProgression;

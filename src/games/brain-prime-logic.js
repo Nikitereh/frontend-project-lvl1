@@ -1,9 +1,9 @@
-import func from '../index.js';
+import gameLogic from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
-const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const gameRule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const isPrimal = (number) => {
+const isPrime = (number) => {
   if (number < 2) {
     return false;
   }
@@ -15,13 +15,13 @@ const isPrimal = (number) => {
   return true;
 };
 
-const check = () => {
+const generateData = () => {
   const number = getRandomNumber(1, 100);
   const question = `${number}`;
-  const correctAnswer = isPrimal(number) ? 'yes' : 'no';
+  const correctAnswer = isPrime(number) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
-const brainPrime = () => func(rules, check);
+const brainPrime = () => gameLogic(gameRule, generateData);
 
 export default brainPrime;
