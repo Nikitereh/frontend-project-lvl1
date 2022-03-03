@@ -1,7 +1,7 @@
-import func from '../index.js';
+import gameLogic from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
-const rules = 'What is the result of the expression?';
+const gameRule = 'What is the result of the expression?';
 
 const operations = ['+', '-', '*'];
 
@@ -18,7 +18,7 @@ const calculator = (number1, operator, number2) => {
   }
 };
 
-const check = () => {
+const generateData = () => {
   const number1 = getRandomNumber(1, 25);
   const number2 = getRandomNumber(1, 25);
   const randomOperator = operations[getRandomNumber(0, operations.length - 1)];
@@ -27,6 +27,6 @@ const check = () => {
   return [question, correctAnswer];
 };
 
-const brainCalc = () => func(rules, check);
+const brainCalc = () => gameLogic(gameRule, generateData);
 
 export default brainCalc;
